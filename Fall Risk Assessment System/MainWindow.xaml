@@ -8,7 +8,7 @@
         Title="FRA System" Height="600" Width="900">
     <Grid>
         <Menu x:Name="menu" Height="25" VerticalAlignment="Top" >
-            
+
             <MenuItem Header="File" Height="25" >
                 <MenuItem Header="New" />
                 <MenuItem Header="Open Files" />
@@ -17,9 +17,20 @@
                 <Separator />
                 <MenuItem Header="Exit" />
             </MenuItem>
-            
+
             <MenuItem Header="View" >
-                <MenuItem Header="Display" />
+                <MenuItem Header="Display" >
+                    <MenuItem Header="Device List" />
+                    <MenuItem Header="Message Windows" />
+                    <MenuItem Header="Sensor Setting" />
+                    <MenuItem Header="Output Configuration" />
+                    <Separator />
+                    <MenuItem Header="3D Orientation" />
+                    <MenuItem Header="Inertial Data" />
+                    <MenuItem Header="Orientation Data" />
+                    <MenuItem Header="Status Data" />
+                </MenuItem>
+
             </MenuItem>
 
             <MenuItem Header="Tools" >
