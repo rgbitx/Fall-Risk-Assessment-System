@@ -67,6 +67,7 @@
 
 
         </Menu>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="320,225,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
