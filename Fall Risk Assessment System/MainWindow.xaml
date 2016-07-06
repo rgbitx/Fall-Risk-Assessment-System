@@ -252,6 +252,7 @@
 
 
         </Menu>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="320,225,0,0" VerticalAlignment="Top" Width="75"/>
 
         <ToolBarTray Background="LightGray" Margin="0,25,0,0" VerticalAlignment="Top" Height="50">
 
